@@ -19,8 +19,8 @@ remove_files_if_exist() {
 
 # Function to move files matching a pattern to the KDE_backup directory
 move_files_to_backup() {
-  local pattern="$1"            # Get the pattern from the function argument
-  local backup_dir="KDE_backup" # Define the backup directory
+  local pattern="$1"               # Get the pattern from the function argument
+  local backup_dir="../KDE_backup" # Define the backup directory
 
   # Create the backup directory if it doesn't exist
   if [ ! -d "$backup_dir" ]; then
