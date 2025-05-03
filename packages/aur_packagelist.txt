@@ -1,0 +1,4 @@
+mullvad-vpn
+timeshift-autosnap
+yay
+yay-debug
