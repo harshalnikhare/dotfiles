@@ -30,6 +30,13 @@ sudo pacman -S --needed --noconfirm git base-devel && git clone https://aur.arch
 
 ---
 
+## Configure btrfs auto snaps
+
+1. Follow [these](https://discovery.endeavouros.com/encrypted-installation/btrfs-with-timeshift-snapshots-on-the-grub-menu/2022/02/) steps
+2. Reboot & verify
+
+---
+
 ## Install required packages
 
 ```bash
@@ -44,6 +51,14 @@ chmod +x $HOME/dotfiles/scripts/*
 
 ```bash
 ./$HOME/dotfiles/scripts/install_zsh.sh
+```
+
+---
+
+## Configure tlp
+
+```bash
+./$HOME/dotfiles/scripts/install_tlp.sh
 ```
 
 ---
@@ -68,6 +83,28 @@ nvm install -lts
 ```bash
 npm i -g neovim
 ```
+
+---
+
+## Configure tmux
+
+1. Install tpm
+
+```bash
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+```
+
+2. Run the following
+
+```bash
+tmux
+```
+
+```bash
+tmux source ~/.config/tmux/tmux.conf
+```
+
+3. Then run Ctrl + A & shift i
 
 ---
 
@@ -98,42 +135,5 @@ return {
 ```bash
 ./$HOME/dotfiles/scripts/install_bluetooth.sh
 ```
-
----
-
-## Configure btrfs auto snaps
-
-1. Follow [these](https://discovery.endeavouros.com/encrypted-installation/btrfs-with-timeshift-snapshots-on-the-grub-menu/2022/02/) steps
-2. Reboot & verify
-
----
-
-## Configure tlp
-
-```bash
-./$HOME/dotfiles/scripts/install_tlp.sh
-```
-
----
-
-## Configure tmux
-
-1. Install tpm
-
-```bash
-git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
-```
-
-2. Run the following
-
-```bash
-tmux
-```
-
-```bash
-tmux source ~/.config/tmux/tmux.conf
-```
-
-3. Then run Ctrl + A & shift i
 
 ---
