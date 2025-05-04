@@ -115,3 +115,15 @@ return {
 ```
 
 ---
+
+## Configure tmux
+
+1. Install tpm
+
+```bash
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+```
+
+2. Open tmux and run Ctrl + I
+
+---
