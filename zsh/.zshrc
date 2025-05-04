@@ -75,6 +75,9 @@ plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
+#
+# when terminal starts start tmux
+if [ "$TMUX" = "" ]; then tmux; fi
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
@@ -105,6 +108,9 @@ source $ZSH/oh-my-zsh.sh
 #
 # Source fzf
 source <(fzf --zsh)
+#
+# eval zoxide
+eval "$(zoxide init --cmd cd zsh)"
 #
 # zsh auto-suggestion accept bindings
 bindkey '^ ' autosuggest-accept

@@ -124,6 +124,16 @@ return {
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 ```
 
-2. Open tmux and run Ctrl + I
+2. Run the following
+
+```bash
+tmux
+```
+
+```bash
+tmux source ~/.config/tmux/tmux.conf
+```
+
+3. Then run Ctrl + A & shift i
 
 ---
