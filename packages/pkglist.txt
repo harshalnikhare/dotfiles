@@ -1,6 +1,3 @@
-base-devel
-bluez-utils
-btrfs-progs
 fastfetch
 fd
 firefox
@@ -15,10 +12,11 @@ lazygit
 luarocks
 man-db
 neovim
+stow
 timeshift
 tldr
-tlp
 ttf-meslo-nerd
+tmux
 unzip
 vim
 wget
