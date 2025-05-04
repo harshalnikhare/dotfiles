@@ -17,7 +17,7 @@ git clone https://github.com/harshalnikhare/dotfiles
 ## copy dotfiles
 
 ```bash
-cd dotfiles && stow zsh ghostty && cd
+cd dotfiles && stow zsh ghostty tmux && cd
 ```
 
 ---
