@@ -2,10 +2,10 @@
 
 ---
 
-## Install git vim
+## Install git
 
 ```bash
-sudo pacman -S --noconfirm git vim stow
+sudo pacman -S --noconfirm git
 ```
 
 ```bash
