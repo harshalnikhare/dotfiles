@@ -5,7 +5,7 @@
 ## Install git
 
 ```bash
-sudo pacman -S --noconfirm git
+sudo pacman -S --noconfirm git firefox stow
 ```
 
 ```bash
@@ -37,12 +37,20 @@ sudo pacman -S --needed --noconfirm git base-devel && git clone https://aur.arch
 
 ---
 
+## Configure bluetooth
+
+```bash
+./$HOME/dotfiles/scripts/install_bluetooth.sh
+```
+
+---
+
 ## Install required packages
 
 ```bash
 chmod +x $HOME/dotfiles/scripts/*
-./$HOME/dotfiles/scripts/install_packages.sh
-./$HOME/dotfiles/scripts/install_flatpaks.sh
+$HOME/dotfiles/scripts/install_packages.sh
+$HOME/dotfiles/scripts/install_flatpaks.sh
 ```
 
 ---
@@ -50,7 +58,7 @@ chmod +x $HOME/dotfiles/scripts/*
 ## Install and setup zsh
 
 ```bash
-./$HOME/dotfiles/scripts/install_zsh.sh
+$HOME/dotfiles/scripts/install_zsh.sh
 ```
 
 ---
@@ -58,7 +66,7 @@ chmod +x $HOME/dotfiles/scripts/*
 ## Configure tlp
 
 ```bash
-./$HOME/dotfiles/scripts/install_tlp.sh
+$HOME/dotfiles/scripts/install_tlp.sh
 ```
 
 ---
@@ -126,14 +134,6 @@ return {
     },
   },
 }
-```
-
----
-
-## Configure bluetooth
-
-```bash
-./$HOME/dotfiles/scripts/install_bluetooth.sh
 ```
 
 ---

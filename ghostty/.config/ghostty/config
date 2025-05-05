@@ -46,3 +46,4 @@ font-family = MesloLGL Nerd Font
 font-size = 14
 maximize = true
 background-opacity = 0.9
+window-decoration = server
