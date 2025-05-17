@@ -1,5 +1,7 @@
 #!/bin/bash
 
+sudo pacman -S --noconfirm --needed zsh
+
 # 1. Oh My Zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
