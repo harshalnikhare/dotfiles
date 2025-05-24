@@ -42,8 +42,8 @@
 # # Just for example:
 # resize-overlay-duration = 4s 200ms
 theme = catppuccin-mocha.conf
-font-family = MesloLGL Nerd Font
-font-size = 16
+font-family = JetBrainsMono Nerd Font
+font-size = 18
 maximize = true
 background-opacity = 0.9
 window-decoration = server

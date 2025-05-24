@@ -112,6 +112,9 @@ source <(fzf --zsh)
 # eval zoxide
 eval "$(zoxide init --cmd cd zsh)"
 #
+# eval starship
+eval "$(starship init zsh)"
+
 # zsh auto-suggestion accept bindings
 bindkey '^ ' autosuggest-accept
 
