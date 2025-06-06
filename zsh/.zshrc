@@ -77,7 +77,7 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 #
 # when terminal starts start tmux
-if [ "$TMUX" = "" ]; then tmux; fi
+if [ "$TMUX" = "" ]; then tmux -u; fi
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
@@ -108,6 +108,7 @@ if [ "$TMUX" = "" ]; then tmux; fi
 #
 # Source fzf
 source <(fzf --zsh)
+
 #
 # eval zoxide
 eval "$(zoxide init --cmd cd zsh)"
@@ -125,3 +126,7 @@ alias s='v $(fzf --preview="bat --color=always {}")'
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+fpath+=${ZDOTDIR:-~}/.zsh_functions
+
+# NEOVIM
+export PATH="$PATH:/opt/nvim-linux-x86_64/bin"
