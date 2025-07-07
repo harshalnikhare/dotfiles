@@ -1,2 +1,0 @@
-mullvad-vpn
-timeshift-autosnap

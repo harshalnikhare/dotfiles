@@ -1,4 +1,0 @@
-org.keepassxc.KeePassXC
-md.obsidian.Obsidian
-org.videolan.VLC
-com.google.Chrome
