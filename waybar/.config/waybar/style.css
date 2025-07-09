@@ -32,6 +32,10 @@ window#waybar {
   padding: 0 10px;
 }
 
+.modules-right {
+  padding: 0;
+}
+
 #clock,
 #battery,
 #cpu,
@@ -50,7 +54,7 @@ window#waybar {
 #power-profiles-daemon,
 #language,
 #mpd {
-  padding: 0 10px;
+  padding: 0 0 0 10px;
   border-radius: 2px;
 }
 
