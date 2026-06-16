@@ -10,7 +10,7 @@
         system = "x86_64-linux";
 
         modules = [
-          ./hosts/laptop/configuration.nix
+          ./hosts/laa7/configuration.nix
         ];
       };
     };
