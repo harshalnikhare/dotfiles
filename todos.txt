@@ -1,4 +1,5 @@
 - tmux
 - stow all config
+- nvidia setup
 - refactoring
 - kde env configuration

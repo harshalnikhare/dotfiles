@@ -167,7 +167,6 @@
 
     shellAliases = {
       n = "nvim";
-      ll = "ls -al";
     };
   };
 
