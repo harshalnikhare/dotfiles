@@ -90,7 +90,8 @@
 
   environment.shellAliases = {
     n = "nvim";
-  }
+    ll = "ls -al";
+  };
 
   # Fonts
   # Configure and install system fonts
