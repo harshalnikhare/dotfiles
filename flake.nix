@@ -16,10 +16,17 @@
   };
 
   outputs =
-    { self, nixpkgs }:
+    {
+      self,
+      nixpkgs,
+      zen-browser,
+    }@inputs:
     {
       nixosConfigurations.slaptop = nixpkgs.lib.nixosSystem {
         system = "x86_64-linux";
+
+        # This line passes all inputs (including zen-browser) into your modules!
+        specialArgs = { inherit inputs; };
 
         modules = [
           ./hosts/laptop/configuration.nix
