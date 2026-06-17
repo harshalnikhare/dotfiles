@@ -88,11 +88,6 @@
 
   environment.shells = with pkgs; [ zsh ];
 
-  environment.shellAliases = {
-    n = "nvim";
-    ll = "ls -al";
-  };
-
   # Fonts
   # Configure and install system fonts
   fonts.packages = with pkgs; [
@@ -139,7 +134,7 @@
       keepassxc
       syncthing
       statix
-      nixfmt-rfc-style
+      nixfmt
       fastfetch
       btop
       stow
@@ -169,6 +164,11 @@
     interactiveShellInit = ''
       	    bindkey '^ ' autosuggest-accept
       	  '';
+
+    shellAliases = {
+      n = "nvim";
+      ll = "ls -al";
+    };
   };
 
   # Allow unfree packages
