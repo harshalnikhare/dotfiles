@@ -133,6 +133,7 @@
       fastfetch
       btop
       stow
+      inputs.zen-browser.packages.${pkgs.stdenv.hostPlatform.system}.default
     ];
   };
 
