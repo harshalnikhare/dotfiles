@@ -1,2 +1,4 @@
 - tmux
 - stow all config
+- refactoring
+- kde env configuration
