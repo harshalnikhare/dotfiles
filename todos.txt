@@ -2,4 +2,5 @@
 - stow all config
 - nvidia setup
 - refactoring
+- do browser nix way
 - kde env configuration
