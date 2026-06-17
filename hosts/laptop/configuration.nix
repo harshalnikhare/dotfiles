@@ -88,6 +88,10 @@
 
   environment.shells = with pkgs; [ zsh ];
 
+  environment.shellAliases = {
+    n = "nvim";
+  }
+
   # Fonts
   # Configure and install system fonts
   fonts.packages = with pkgs; [
