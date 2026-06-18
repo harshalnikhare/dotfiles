@@ -140,6 +140,7 @@
       stow
       inputs.zen-browser.packages.${pkgs.stdenv.hostPlatform.system}.default
       proton-vpn
+      tmux
     ];
   };
 
@@ -193,6 +194,18 @@
     "flakes"
   ];
 
+  # TPM install script
+  system.activationScripts.installTpm.text = ''
+    TPM_DIR="/home/harshaln/.tmux/plugins/tpm"
+
+    if [ ! -d "$TPM_DIR" ]; then
+      mkdir -p "$(dirname "$TPM_DIR")"
+      ${pkgs.git}/bin/git clone \
+        https://github.com/tmux-plugins/tpm \
+        "$TPM_DIR"
+    fi
+  '';
+
   # Some programs need SUID wrappers, can be configured further or are
   # started in user sessions.
   # programs.mtr.enable = true;
@@ -218,6 +231,7 @@
   # this value at the release version of the first install of this system.
   # Before changing this value read the documentation for this option
   # (e.g. man configuration.nix or on https://nixos.org/nixos/options.html).
+
   system.stateVersion = "26.05"; # Did you read the comment?
 
 }
