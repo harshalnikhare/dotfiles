@@ -164,6 +164,7 @@
     # Custom keybinding for autosuggestions (Ctrl + Space)
     interactiveShellInit = ''
       	    bindkey '^ ' autosuggest-accept
+            eval "$(zellij setup --generate-auto-start zsh)"
       	  '';
 
     shellAliases = {
