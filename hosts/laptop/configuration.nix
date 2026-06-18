@@ -146,6 +146,7 @@
       bat
       zoxide
       tldr
+      jq
     ];
   };
 

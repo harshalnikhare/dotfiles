@@ -32,6 +32,7 @@
           ./hosts/laptop/configuration.nix
 
           ./modules/tmux.nix
+          ./modules/conty.nix
         ];
       };
     };
