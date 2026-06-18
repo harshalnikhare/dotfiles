@@ -30,6 +30,8 @@
 
         modules = [
           ./hosts/laptop/configuration.nix
+
+          ./modules/tmux.nix
         ];
       };
     };
