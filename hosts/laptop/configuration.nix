@@ -140,7 +140,6 @@
       stow
       inputs.zen-browser.packages.${pkgs.stdenv.hostPlatform.system}.default
       proton-vpn
-      zellij
     ];
   };
 
@@ -164,8 +163,6 @@
     # Custom keybinding for autosuggestions (Ctrl + Space)
     interactiveShellInit = ''
       	    bindkey '^ ' autosuggest-accept
-            # tempararily I chose to comment this
-            # eval "$(zellij setup --generate-auto-start zsh)"
       	  '';
 
     shellAliases = {
