@@ -173,16 +173,6 @@
     };
   };
 
-  programs.zellij = {
-    enable = true;
-
-    settings = {
-      # 1. Set the active theme
-      theme = "catppuccin-mocha";
-      # theme = "tokyo-night-dark";
-    };
-  };
-
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
 
