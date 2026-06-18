@@ -19,6 +19,7 @@
 
     if [ -n "$CONTY_URL" ]; then
       ${pkgs.curl}/bin/curl -L "$CONTY_URL" -o "$CONTY_PATH"
+      chown -R harshaln:users $GAMES_DIR
       chmod +x "$CONTY_PATH"
     else
       echo "Failed to fetch latest conty release"

@@ -147,6 +147,7 @@
       zoxide
       tldr
       jq
+      gamemode
     ];
   };
 
