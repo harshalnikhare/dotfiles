@@ -141,6 +141,11 @@
       inputs.zen-browser.packages.${pkgs.stdenv.hostPlatform.system}.default
       proton-vpn
       tmux
+      tmuxPlugins.tmux-fzf
+      tree
+      bat
+      zoxide
+      tldr
     ];
   };
 
@@ -168,6 +173,7 @@
 
     shellAliases = {
       n = "nvim";
+      tmux = "tmux -u";
     };
   };
 
