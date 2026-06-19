@@ -1,6 +1,6 @@
 x tmux
 x stow all config
-- nvidia setup
-- refactoring
-- do browser nix way
+x nvidia setup
+x refactoring
+- Docker
 - kde env configuration

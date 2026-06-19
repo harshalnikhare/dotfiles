@@ -54,10 +54,6 @@
 
           # Nix and garbage collection
           ./modules/nix.nix
-
-          # # Extra Scripts
-          # ./modules/tmux.nix
-          # ./modules/conty.nix
         ];
       };
     };
