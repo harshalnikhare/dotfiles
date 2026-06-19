@@ -31,6 +31,31 @@
         modules = [
           ./hosts/laptop/configuration.nix
 
+          # Boot
+          ./modules/boot.nix
+
+          # Networking
+          ./modules/networking.nix
+
+          # Locale
+          ./modules/locale.nix
+
+          # Services & Security
+          ./modules/services.nix
+
+          # Fonts
+          ./modules/fonts.nix
+
+          # Users
+          ./modules/users.nix
+
+          # Packages & programs
+          ./modules/packages.nix
+
+          # Nix and garbage collection
+          ./modules/nix.nix
+
+          # # Extra Scripts
           # ./modules/tmux.nix
           # ./modules/conty.nix
         ];
