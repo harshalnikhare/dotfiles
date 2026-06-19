@@ -31,8 +31,8 @@
         modules = [
           ./hosts/laptop/configuration.nix
 
-          ./modules/tmux.nix
-          ./modules/conty.nix
+          # ./modules/tmux.nix
+          # ./modules/conty.nix
         ];
       };
     };
