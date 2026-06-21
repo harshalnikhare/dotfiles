@@ -1,6 +1,1 @@
-x tmux
-x stow all config
-x nvidia setup
-x refactoring
-- Docker
 - kde env configuration

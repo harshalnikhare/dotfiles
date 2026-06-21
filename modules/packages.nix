@@ -46,6 +46,7 @@
     tldr
     jq
     gamemode
+    vlc
   ];
 
   # Install firefox.
