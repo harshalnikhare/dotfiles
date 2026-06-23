@@ -46,7 +46,8 @@
     tldr
     jq
     gamemode
-    vlc
+    mpv
+    qbittorrent
   ];
 
   # Install firefox.
