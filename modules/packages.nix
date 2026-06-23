@@ -48,6 +48,7 @@
     gamemode
     mpv
     qbittorrent
+    unrar
   ];
 
   # Install firefox.
