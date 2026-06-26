@@ -1,4 +1,9 @@
-{ pkgs, inputs, ... }:
+{
+  pkgs,
+  unstablePkgs,
+  inputs,
+  ...
+}:
 
 {
   users.users.harshaln.packages = with pkgs; [
@@ -49,6 +54,7 @@
     mpv
     qbittorrent
     unrar
+    unstablePkgs.opencode
   ];
 
   # Install firefox.
