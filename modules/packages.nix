@@ -55,7 +55,7 @@
     qbittorrent
     unrar
     unstablePkgs.opencode
-    # unstablePkgs.herdr
+    unstablePkgs.herdr
   ];
 
   # Install firefox.
