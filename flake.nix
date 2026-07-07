@@ -63,6 +63,9 @@
           # Packages & programs
           ./modules/packages.nix
 
+          # Virtualization (docker)
+          ./modules/virtualization.nix
+
           # Nix and garbage collection
           ./modules/nix.nix
         ];
