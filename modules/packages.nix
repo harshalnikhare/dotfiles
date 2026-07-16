@@ -54,6 +54,7 @@
     mpv
     qbittorrent
     unrar
+    libreoffice
     unstablePkgs.opencode
     unstablePkgs.herdr
   ];
