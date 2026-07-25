@@ -55,6 +55,7 @@
     qbittorrent
     unrar
     libreoffice
+    virtualbox
     unstablePkgs.opencode
     unstablePkgs.herdr
   ];
