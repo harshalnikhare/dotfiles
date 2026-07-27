@@ -56,6 +56,8 @@
     unrar
     libreoffice
     virtualbox
+    chromium
+    vscode
     unstablePkgs.opencode
     unstablePkgs.herdr
   ];
