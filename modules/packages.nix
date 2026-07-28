@@ -27,6 +27,7 @@
     ruby
     php
     nodejs
+    yarn
     python3
     ghostty
     imagemagick
