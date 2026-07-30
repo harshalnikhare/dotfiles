@@ -28,6 +28,7 @@
     php
     nodejs
     yarn
+    pnpm
     python3
     ghostty
     imagemagick
