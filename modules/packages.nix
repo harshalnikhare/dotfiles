@@ -60,6 +60,8 @@
     virtualbox
     chromium
     vscode
+    discord
+    telegram-desktop
     unstablePkgs.opencode
     unstablePkgs.herdr
   ];
