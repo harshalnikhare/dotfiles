@@ -62,6 +62,7 @@
     vscode
     discord
     telegram-desktop
+    pgadmin4-desktopmode
     unstablePkgs.opencode
     unstablePkgs.herdr
   ];
