@@ -62,6 +62,7 @@
     vscode
     discord
     telegram-desktop
+    dbeaver-bin
     unstablePkgs.opencode
     unstablePkgs.herdr
   ];
