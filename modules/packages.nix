@@ -62,6 +62,7 @@
     discord
     telegram-desktop
     dbeaver-bin
+    dig
     unstablePkgs.opencode
     unstablePkgs.herdr
   ];
