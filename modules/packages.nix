@@ -57,7 +57,6 @@
     qbittorrent
     unrar
     libreoffice
-    virtualbox
     chromium
     vscode
     discord
